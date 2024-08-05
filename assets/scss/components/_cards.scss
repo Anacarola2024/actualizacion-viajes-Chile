@@ -1,0 +1,19 @@
+
+// cards//
+.card {
+    background: transparent;
+    
+    &-body {
+        background-color: $blanco;
+        color: $oscuro;
+    }
+    &-title {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    img {
+        height: 60%;
+        object-fit: cover;
+    }
+}

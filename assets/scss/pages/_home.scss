@@ -1,0 +1,24 @@
+
+
+
+// nosotros//
+.nosotros {
+    padding-top: $separacion;
+}
+
+.tarjeta {
+    color: $blanco;
+}
+.tarjeta__icon {
+    background-color: $secundario;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .3rem 0;
+}
+.tarjeta__icon i {
+    font-size: 2.5rem;
+}
+.destacados {
+    padding: $separacion 0;
+}

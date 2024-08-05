@@ -1,0 +1,31 @@
+
+// formularios//
+.formulario {
+    &__contenido {
+        label {
+            color: $blanco;
+        }
+        input,
+        textarea {
+            padding: 1rem;
+            font-size: 1.6rem;
+        }
+
+        span {
+            cursor: pointer;
+        }
+    }
+    &__btn button {
+        
+        color: $oscuro;
+        font-size: 1.6rem;
+        padding: .5rem 1rem;
+        width: 7rem;
+
+        &:hover {
+            
+            opacity: .8;
+            color: $oscuro;
+        }
+    }
+}

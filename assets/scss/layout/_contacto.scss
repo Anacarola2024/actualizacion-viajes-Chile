@@ -1,0 +1,23 @@
+
+
+// contacto//
+.contacto {
+    color: $blanco;
+    padding: 7rem 0 3rem 0;
+
+    &__texto {
+        display: none;
+
+        telefono {
+            display: block;
+        }
+    }
+
+    i {
+        width: 1.5rem;
+    }
+    
+    span {
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,9 @@
+
+
+.link {
+    opacity: .3; 
+     
+    &:hover {
+        opacity: unset;
+    }
+}
